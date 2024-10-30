@@ -19,19 +19,6 @@ class ReactiveRequestLimitFilterTest extends Specification {
     @Autowired
     ReactiveRequestLimitFilter reactiveRequestLimitFilter;
 
-//    def "greetingFilterPass"() {
-//        given:
-//            WebFilterChain filterChain = filterExchange -> Mono.empty();
-//            MockServerWebExchange exchange = MockServerWebExchange.from(
-//                    MockServerHttpRequest
-//                            .get("/greeting?say=Hello"));
-//        when:
-//            def reslut = reactiveRequestLimitFilter.filter(exchange,filterChain).block()
-//
-//        then:
-//            null == reslut
-//    }
-
 
     def "greetingFilterRateLimited"() {
         given:
