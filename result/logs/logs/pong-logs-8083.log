@@ -1,0 +1,108 @@
+2024-10-31 02:45:55.886 [main] INFO  com.greeting.PingApplication - Starting PingApplication v0.0.1-SNAPSHOT using Java 17.0.0.1 with PID 12368 (C:\Workspace\practice\2\webfulx\result\ping-0.0.1-SNAPSHOT.jar started by admin in C:\Workspace\practice\2\webfulx\result)
+2024-10-31 02:45:55.888 [main] INFO  com.greeting.PingApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-31 02:45:57.319 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8083 (http)
+2024-10-31 02:45:57.335 [main] INFO  com.greeting.PingApplication - Started PingApplication in 1.672 seconds (process running for 2.157)
+2024-10-31 02:45:57.337 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:45:57.353 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:45:57.474 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:45:57.827 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:45:58.329 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:45:58.330 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:45:58.333 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:45:58.826 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:45:59.329 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:45:59.330 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:45:59.333 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:45:59.827 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:00.329 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:00.329 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:00.332 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:46:00.827 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:01.330 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:01.330 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:01.334 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:46:01.826 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:02.330 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:02.330 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:02.334 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:46:02.826 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:03.329 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:03.330 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:03.333 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:46:03.826 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:04.330 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:04.330 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:04.333 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:46:04.826 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:05.329 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:05.329 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:05.333 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:46:05.826 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:06.330 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:06.330 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:06.333 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:46:06.827 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:07.330 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:07.330 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:07.334 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:46:07.826 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:08.330 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:08.330 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:08.334 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:46:08.827 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:09.329 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:09.329 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:09.332 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:46:09.827 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:10.329 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:10.329 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:10.332 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:46:10.827 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:11.329 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:11.330 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:11.332 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:46:11.826 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:12.329 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:12.330 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:12.334 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:46:12.827 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:13.330 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:13.332 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:13.335 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:46:13.826 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:14.329 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:14.329 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:14.332 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:46:14.827 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:15.329 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:15.329 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:15.333 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:46:15.827 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:16.329 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:16.330 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:16.334 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:46:16.827 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:17.329 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:17.329 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:17.335 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:46:17.827 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:18.329 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:18.330 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:18.333 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:46:18.826 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:19.329 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:19.329 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:19.332 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:46:19.827 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:20.330 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:20.330 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:20.333 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:46:20.826 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:21.330 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:21.330 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:21.333 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:46:21.826 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:22.331 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:22.332 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:22.337 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:46:22.827 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.

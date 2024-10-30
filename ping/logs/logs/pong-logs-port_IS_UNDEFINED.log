@@ -1,0 +1,184 @@
+2024-10-30 19:41:00.285 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.greeting.client.HelloLoggingWebClientTest]: HelloLoggingWebClientTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-10-30 19:41:00.342 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.greeting.PingApplication for test class com.greeting.client.HelloLoggingWebClientTest
+2024-10-30 19:41:00.401 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.greeting.client.HelloLoggingWebClientTest]: HelloLoggingWebClientTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-10-30 19:41:00.403 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.greeting.PingApplication for test class com.greeting.client.HelloLoggingWebClientTest
+2024-10-30 19:56:49.279 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.greeting.client.HelloLoggingWebClientTest]: HelloLoggingWebClientTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-10-30 19:56:49.327 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.greeting.PingApplication for test class com.greeting.client.HelloLoggingWebClientTest
+2024-10-30 19:56:49.386 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.greeting.client.HelloLoggingWebClientTest]: HelloLoggingWebClientTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-10-30 19:56:49.388 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.greeting.PingApplication for test class com.greeting.client.HelloLoggingWebClientTest
+2024-10-30 19:57:28.191 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.greeting.client.HelloLoggingWebClientTest]: HelloLoggingWebClientTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-10-30 19:57:28.238 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.greeting.PingApplication for test class com.greeting.client.HelloLoggingWebClientTest
+2024-10-30 19:57:28.296 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.greeting.client.HelloLoggingWebClientTest]: HelloLoggingWebClientTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-10-30 19:57:28.298 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.greeting.PingApplication for test class com.greeting.client.HelloLoggingWebClientTest
+2024-10-30 19:58:52.992 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.greeting.client.HelloLoggingWebClientTest]: HelloLoggingWebClientTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-10-30 19:58:53.039 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.greeting.PingApplication for test class com.greeting.client.HelloLoggingWebClientTest
+2024-10-30 19:58:53.095 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.greeting.client.HelloLoggingWebClientTest]: HelloLoggingWebClientTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-10-30 19:58:53.097 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.greeting.PingApplication for test class com.greeting.client.HelloLoggingWebClientTest
+2024-10-30 20:10:17.151 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.greeting.client.HelloLoggingWebClientTest]: HelloLoggingWebClientTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2024-10-30 20:10:17.203 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.greeting.PingApplication for test class com.greeting.client.HelloLoggingWebClientTest
+2024-10-30 21:46:14.165 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-30 21:46:56.552 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-30 21:47:46.729 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-30 21:48:29.379 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-30 21:48:58.388 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-30 21:50:41.722 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-30 21:57:01.722 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-30 21:57:04.591 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-30 21:58:15.258 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-30 21:59:21.912 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-30 21:59:22.909 [main] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[content-type:"application/json"]>
+2024-10-30 22:01:20.782 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-30 22:01:21.619 [main] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[content-type:"application/json"]>
+2024-10-30 22:02:38.634 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-30 22:02:39.447 [main] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[content-type:"application/json"]>
+2024-10-30 22:03:27.944 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-30 22:03:28.750 [main] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[content-type:"application/json"]>
+2024-10-30 22:15:48.660 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-30 22:15:48.858 [main] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[content-type:"application/json"]>
+2024-10-30 22:15:59.021 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-30 22:15:59.224 [main] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[content-type:"application/json"]>
+2024-10-30 23:13:23.490 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-30 23:14:05.578 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-30 23:30:01.650 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-30 23:30:51.210 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-30 23:30:51.214 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-30 23:31:04.648 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-30 23:31:04.652 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-30 23:32:29.366 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-30 23:33:06.206 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-30 23:33:06.210 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-30 23:33:22.584 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-30 23:33:23.395 [main] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[content-type:"application/json"]>
+2024-10-30 23:33:23.772 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-30 23:33:23.783 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-30 23:33:37.839 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-30 23:33:38.669 [main] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[content-type:"application/json"]>
+2024-10-30 23:33:39.019 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-30 23:33:39.028 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-30 23:34:07.535 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-30 23:34:07.541 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-30 23:41:23.436 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-30 23:41:23.440 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-30 23:42:24.526 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-30 23:42:53.197 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-30 23:43:53.657 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-30 23:43:53.661 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-30 23:44:53.908 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-30 23:44:53.912 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-30 23:46:41.534 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-30 23:46:41.538 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-30 23:49:01.041 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-30 23:49:01.047 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-30 23:49:12.454 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-30 23:49:12.458 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-30 23:49:30.018 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-30 23:49:30.022 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-30 23:49:46.143 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-30 23:49:46.147 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-30 23:50:36.237 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-30 23:50:36.241 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-30 23:50:46.868 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-30 23:50:46.874 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 00:08:51.713 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 00:08:51.718 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 00:10:34.947 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 00:10:34.953 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 00:14:12.170 [main] ERROR com.greeting.util.PingFileLock - Getting file lock failed.
+2024-10-31 00:14:12.171 [main] ERROR c.g.client.HelloLoggingWebClient - Getting file lock failed.
+2024-10-31 00:14:37.395 [main] ERROR com.greeting.util.PingFileLock - Getting file lock failed.
+2024-10-31 00:14:37.395 [main] ERROR c.g.client.HelloLoggingWebClient - Getting file lock failed.
+2024-10-31 00:14:38.022 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 00:14:46.109 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 00:14:46.113 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 00:19:49.780 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 00:19:49.784 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 00:20:50.616 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 00:20:50.620 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 00:27:23.852 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 00:27:23.856 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 00:29:55.542 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 00:29:55.547 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 00:32:57.404 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 00:32:57.409 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 00:33:41.436 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 00:33:41.441 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 00:36:39.555 [main] INFO  c.g.client.HelloLoggingWebClient - The request was not sent and was limited.
+2024-10-31 00:37:52.991 [main] INFO  c.g.client.HelloLoggingWebClient - The request was not sent and was limited.
+2024-10-31 00:37:59.260 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 00:37:59.278 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 00:38:31.857 [main] INFO  c.g.client.HelloLoggingWebClient - The request was not sent and was limited.
+2024-10-31 00:39:06.425 [main] ERROR c.g.client.HelloLoggingWebClient - ouch
+2024-10-31 00:39:23.791 [main] ERROR c.g.client.HelloLoggingWebClient - ouch
+2024-10-31 00:39:41.383 [main] INFO  c.g.client.HelloLoggingWebClient - The request was not sent and was limited.
+2024-10-31 00:40:07.251 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 00:40:07.272 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 00:40:07.302 [main] INFO  c.g.client.HelloLoggingWebClient - The request was not sent and was limited.
+2024-10-31 00:41:47.713 [main] INFO  c.g.client.HelloLoggingWebClient - The request was not sent and was limited.
+2024-10-31 00:42:26.636 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 00:42:26.652 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 00:42:26.681 [main] INFO  c.g.client.HelloLoggingWebClient - The request was not sent and was limited.
+2024-10-31 00:45:42.787 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 00:45:42.803 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 00:45:42.828 [main] INFO  c.g.client.HelloLoggingWebClient - The request was not sent and was limited.
+2024-10-31 00:49:04.033 [main] ERROR c.g.client.HelloLoggingWebClient - ouch
+2024-10-31 00:51:10.014 [main] ERROR c.g.client.HelloLoggingWebClient - ouch
+2024-10-31 00:51:33.250 [main] ERROR c.g.client.HelloLoggingWebClient - ouch
+2024-10-31 00:52:04.163 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 00:52:04.180 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 00:52:22.292 [main] INFO  c.g.client.HelloLoggingWebClient - The request was not sent and was limited.
+2024-10-31 00:52:34.777 [main] ERROR c.g.client.HelloLoggingWebClient - ouch
+2024-10-31 00:52:45.672 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 00:52:45.690 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 00:52:45.712 [main] INFO  c.g.client.HelloLoggingWebClient - The request was not sent and was limited.
+2024-10-31 00:52:45.773 [main] ERROR c.g.client.HelloLoggingWebClient - ouch
+2024-10-31 00:55:04.602 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 00:55:04.620 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 00:55:04.644 [main] INFO  c.g.client.HelloLoggingWebClient - The request was not sent and was limited.
+2024-10-31 00:55:04.698 [main] ERROR c.g.client.HelloLoggingWebClient - ouch
+2024-10-31 00:56:11.089 [main] INFO  c.g.client.HelloLoggingWebClient - The request was not sent and was limited.
+2024-10-31 01:01:02.034 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 01:01:02.051 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 01:01:02.906 [main] INFO  c.g.client.HelloLoggingWebClient - The request was not sent and was limited.
+2024-10-31 01:01:02.960 [main] ERROR c.g.client.HelloLoggingWebClient - ouch
+2024-10-31 01:14:02.907 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 01:14:02.926 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 01:14:03.869 [main] INFO  c.g.client.HelloLoggingWebClient - The request was not sent and was limited.
+2024-10-31 01:14:03.924 [main] ERROR c.g.client.HelloLoggingWebClient - ouch
+2024-10-31 01:15:49.582 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 01:15:49.600 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 01:15:50.475 [main] INFO  c.g.client.HelloLoggingWebClient - The request was not sent and was limited.
+2024-10-31 01:15:50.523 [main] ERROR c.g.client.HelloLoggingWebClient - ouch
+2024-10-31 01:17:07.195 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 01:17:07.214 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 01:17:08.084 [main] INFO  c.g.client.HelloLoggingWebClient - The request was not sent and was limited.
+2024-10-31 01:17:08.127 [main] ERROR c.g.client.HelloLoggingWebClient - ouch
+2024-10-31 01:17:47.621 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 01:17:47.640 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 01:17:48.477 [main] INFO  c.g.client.HelloLoggingWebClient - The request was not sent and was limited.
+2024-10-31 01:17:48.526 [main] ERROR c.g.client.HelloLoggingWebClient - ouch
+2024-10-31 01:17:56.130 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 01:17:56.149 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 01:17:57.063 [main] INFO  c.g.client.HelloLoggingWebClient - The request was not sent and was limited.
+2024-10-31 01:17:57.116 [main] ERROR c.g.client.HelloLoggingWebClient - ouch
+2024-10-31 01:34:37.297 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 01:34:37.313 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 01:34:38.175 [main] INFO  c.g.client.HelloLoggingWebClient - The request was not sent and was limited.
+2024-10-31 01:34:38.382 [main] ERROR c.g.client.HelloLoggingWebClient - ouch
+2024-10-31 01:34:58.045 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 01:34:58.063 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 01:34:58.972 [main] ERROR c.g.client.HelloLoggingWebClient - ouch
+2024-10-31 01:41:07.432 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 01:41:07.450 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 01:41:08.373 [main] ERROR c.g.client.HelloLoggingWebClient - ouch
+2024-10-31 01:50:35.666 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 01:50:35.684 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 01:50:36.601 [main] ERROR c.g.client.HelloLoggingWebClient - ouch
+2024-10-31 01:51:35.571 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 01:51:35.588 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 01:51:36.527 [main] ERROR c.g.client.HelloLoggingWebClient - ouch
+2024-10-31 01:52:52.128 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 01:52:52.148 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 01:52:53.093 [main] ERROR c.g.client.HelloLoggingWebClient - ouch
+2024-10-31 02:44:43.923 [main] INFO  c.g.client.HelloLoggingWebClient - Sending: Hello
+2024-10-31 02:44:43.940 [main] INFO  c.g.client.HelloLoggingWebClient - Response: world
+2024-10-31 02:44:44.857 [main] ERROR c.g.client.HelloLoggingWebClient - ouch

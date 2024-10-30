@@ -5,8 +5,10 @@ server:
 app:
   rate:
     limit: 1
-    duration: 1000 #ms
+    duration: 1 #ms
 
-
+logging:
+  file:
+    path: ./log
 
 

@@ -3,7 +3,8 @@ package com.greeting.client;
 import com.greeting.util.AcquireFileLockException;
 import com.greeting.util.PingFileLock;
 import com.greeting.util.PingFileLockFactory;
-import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.client.ClientResponse;
 import org.springframework.web.reactive.function.client.ExchangeFilterFunction;
@@ -14,11 +15,18 @@ import reactor.core.publisher.Mono;
 import java.io.IOException;
 
 
-@Slf4j
+/**
+ * @author sam
+ *
+ * 让webclient 具备限流功能。
+ * note: 如果使用 Wrapper 来实现会更好，如果支持的话。
+ */
+
 @Component
 public class HelloLoggingWebClient {
+    private final static Logger log = LoggerFactory.getLogger(HelloLoggingWebClient.class);
 
-    private final WebClient webClient;
+    private WebClient webClient;
 
     private static final String PONG_BASE_PATH_URL = "http://localhost:8081";
     private static final String HELLO_URL = "/greeting";
@@ -35,37 +43,41 @@ public class HelloLoggingWebClient {
     }
 
     // Sending request with request limit from file.
-    public void sendWithFileLockLimit(String message) {
-        //
+    public String sendWithFileLockLimit(String message) {
         try (PingFileLock fileLock = PingFileLockFactory.produce(lockFileName,valueFileName)){
             if (fileLock.getLock()){
-                send(message);
+                return send(message);
             }else {
-                log.info("The request was not sent and was limited.");
+                log.info("Sending {} failed,The request was not sent and was limited.",message);
             }
+
         } catch (IOException e) {
             e.printStackTrace();
             throw new RuntimeException(e);
         } catch (AcquireFileLockException e) {
             log.error(e.getMessage());
         }
+        return null;
     }
 
 
-    public void send(String message) {
+    private String send(String message) {
         log.info("Sending: {}", message);
-        ClientResponse clientResponse = webClient
+        ClientResponse clientResponse = this.webClient
                 .get()
                 .uri(uriBuilder -> uriBuilder.path(HELLO_URL)
                         .queryParam("say", message)
                         .build())
                 .exchange()
                 .block();
-        log.info("Response: {}", clientResponse.toEntity(String.class).block());
+        String response = String.valueOf(clientResponse.toEntity(String.class).block());
+        log.info("Response: {}", response);
+        return response;
     }
 
     // This method returns filter function which will log request data
-    private static ExchangeFilterFunction logRequest() {
+    public static ExchangeFilterFunction logRequest() {
+        //jacoco can not be coveraged!!!!
         return ExchangeFilterFunction.ofRequestProcessor(clientRequest -> {
             log.info("Request: {} {}", clientRequest.method(), clientRequest.url());
             clientRequest.headers().forEach((name, values) -> values.forEach(value -> log.info("{}={}", name, value)));

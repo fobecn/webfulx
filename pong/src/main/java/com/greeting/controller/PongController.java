@@ -1,6 +1,8 @@
 package com.greeting.controller;
 
-import lombok.extern.slf4j.Slf4j;
+import com.greeting.filter.ReactiveRequestLimitFilter;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -11,9 +13,10 @@ import reactor.core.publisher.Mono;
  * @author Sam
  *
  */
-@Slf4j
 @RestController
 public class PongController {
+
+    private final Logger log = LoggerFactory.getLogger(PongController.class);
 
     @GetMapping("/greeting")
     public Mono<String> greeting(@RequestParam(required = false)String say) {   // 【改】返回类型为Mono<String>

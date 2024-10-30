@@ -1,0 +1,144 @@
+2024-10-31 02:45:51.196 [main] INFO  com.greeting.PingApplication - Starting PingApplication v0.0.1-SNAPSHOT using Java 17.0.0.1 with PID 100948 (C:\Workspace\practice\2\webfulx\result\ping-0.0.1-SNAPSHOT.jar started by admin in C:\Workspace\practice\2\webfulx\result)
+2024-10-31 02:45:51.198 [main] INFO  com.greeting.PingApplication - No active profile set, falling back to 1 default profile: "default"
+2024-10-31 02:45:52.630 [main] INFO  o.s.b.w.e.netty.NettyWebServer - Netty started on port 8082 (http)
+2024-10-31 02:45:52.662 [main] INFO  com.greeting.PingApplication - Started PingApplication in 1.661 seconds (process running for 2.219)
+2024-10-31 02:45:52.668 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:45:52.696 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:45:52.901 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:45:52.854+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-1"},[Content-Type:"application/json", Content-Length:"130"]>
+2024-10-31 02:45:53.142 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:45:53.143 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:45:53.147 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:45:53.145+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-2"},[Content-Type:"application/json", Content-Length:"130"]>
+2024-10-31 02:45:53.641 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:45:53.642 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:45:53.664 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:45:54.142 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:45:54.143 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:45:54.148 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:45:54.145+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-4"},[Content-Type:"application/json", Content-Length:"130"]>
+2024-10-31 02:45:54.641 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:45:54.641 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:45:54.645 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:45:55.141 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:45:55.141 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:45:55.145 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:45:55.144+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-6"},[Content-Type:"application/json", Content-Length:"130"]>
+2024-10-31 02:45:55.641 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:45:55.642 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:45:55.645 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:45:56.142 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:45:56.142 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:45:56.145 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:45:56.144+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-8"},[Content-Type:"application/json", Content-Length:"130"]>
+2024-10-31 02:45:56.642 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:45:56.643 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:45:56.646 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:45:57.142 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:45:57.142 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:45:57.145 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:45:57.144+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-10"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:45:57.641 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:45:58.138 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:45:58.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:45:58.142 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:45:58.141+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-12"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:45:58.641 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:45:59.143 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:45:59.143 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:45:59.146 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:45:59.145+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-14"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:45:59.641 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:00.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:00.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:00.143 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:46:00.142+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-16"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:46:00.642 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:01.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:01.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:01.142 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:46:01.141+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-18"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:46:01.641 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:02.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:02.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:02.144 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:46:02.141+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-20"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:46:02.643 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:03.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:03.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:03.142 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:46:03.141+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-22"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:46:03.642 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:04.138 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:04.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:04.144 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:46:04.142+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-24"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:46:04.641 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:05.138 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:05.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:05.144 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:46:05.141+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-26"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:46:05.643 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:06.138 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:06.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:06.142 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:46:06.140+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-28"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:46:06.641 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:07.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:07.140 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:07.143 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:46:07.142+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-30"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:46:07.641 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:08.138 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:08.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:08.143 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:46:08.141+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-32"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:46:08.643 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:09.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:09.140 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:09.144 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:46:09.142+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-34"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:46:09.641 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:10.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:10.140 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:10.143 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:46:10.142+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-36"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:46:10.641 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:11.138 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:11.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:11.142 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:46:11.140+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-38"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:46:11.641 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:12.138 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:12.138 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:12.141 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:46:12.140+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-40"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:46:12.641 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:13.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:13.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:13.143 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:46:13.141+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-42"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:46:13.641 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:14.140 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:14.142 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:14.146 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:46:14.144+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-44"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:46:14.641 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:15.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:15.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:15.142 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:46:15.141+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-46"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:46:15.641 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:16.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:16.140 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:16.143 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:46:16.142+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-48"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:46:16.642 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:17.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:17.140 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:17.145 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:46:17.144+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-50"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:46:17.642 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:18.138 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:18.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:18.142 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:46:18.140+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-52"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:46:18.642 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:19.138 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:19.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:19.141 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:46:19.140+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-54"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:46:19.642 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:20.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:20.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:20.143 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:46:20.141+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-56"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:46:20.642 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:21.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:21.141 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:21.145 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:46:21.143+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-58"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:46:21.642 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:22.138 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:22.138 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:22.141 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:46:22.140+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-60"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:46:22.642 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending hello failed,The request was not sent and was limited.
+2024-10-31 02:46:23.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:23.139 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:23.143 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:46:23.141+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-62"},[Content-Type:"application/json", Content-Length:"131"]>
+2024-10-31 02:46:23.642 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:23.643 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:23.649 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <200 OK OK,world,[Content-Type:"text/plain;charset=UTF-8", Content-Length:"5"]>
+2024-10-31 02:46:24.141 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Sending: hello
+2024-10-31 02:46:24.142 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Request: GET http://localhost:8081/greeting?say=hello
+2024-10-31 02:46:24.145 [scheduling-1] INFO  c.g.client.HelloLoggingWebClient - Response: <429 TOO_MANY_REQUESTS Too Many Requests,{"timestamp":"2024-10-30T18:46:24.143+00:00","path":"/greeting","status":429,"error":"Too Many Requests","requestId":"844667d4-64"},[Content-Type:"application/json", Content-Length:"131"]>

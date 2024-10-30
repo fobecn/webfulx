@@ -1,22 +1,24 @@
 package com.greeting.util;
 
-import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.util.StringUtils;
 
 import java.io.*;
-import java.nio.ByteBuffer;
-import java.nio.channels.FileChannel;
+
 import java.nio.channels.FileLock;
-import java.nio.charset.StandardCharsets;
 
 
 /**
  * @author Sam
  * @date 2014-10-29
+ *
+ * 使用 lockFile文件 的channel.lock 保证多进程单一获取。
+ * 使用 valueFile 保存当前请求数量，  用[秒,加] 当前秒请求次数设计。
  */
-@Slf4j
 public class PingFileLock implements Closeable {
 
+    private final Logger log = LoggerFactory.getLogger(PingFileLock.class);
 
     private static final Integer MAX_REQUEST_LIMIT = 2;
     private static final Integer MAX_RETRY_TIMES = 5;
@@ -33,8 +35,7 @@ public class PingFileLock implements Closeable {
 
 
     //disabled default constructor
-    private PingFileLock() {
-    }
+    private PingFileLock() {}
 
     public PingFileLock(String lockFile,String valueFileName) throws IOException, AcquireFileLockException {
         // Incompatible folder creation, file only.
@@ -54,7 +55,7 @@ public class PingFileLock implements Closeable {
             } else {
                 this.currentValue += 1;
                 writeCounter(this.raf, currentValue);
-                log.info("Incremented value: " + currentValue);
+                log.debug("Incremented value: " + currentValue);
             }
         } else {
             log.error("Getting file lock failed.");
@@ -68,7 +69,8 @@ public class PingFileLock implements Closeable {
         Integer count    = 0;
         try {
             String line = raf.readLine();
-            System.out.println("line:" + line);
+            log.debug("line: {}",line);
+
             if(StringUtils.hasText(line) && line.indexOf(",") > 0){
                 String[] data = line.split(",");
                 dateSecond = Long.parseLong(data[0]);
@@ -85,7 +87,7 @@ public class PingFileLock implements Closeable {
     private void writeCounter(RandomAccessFile raf, int value) throws IOException {
         raf.setLength(0); // Clear existing content
         String finalValue = this.currentDateSecond + "," + value;
-        System.out.println("write:" + finalValue);
+        log.debug("write: {}",finalValue);
 
         raf.write(finalValue.getBytes());
     }
@@ -117,7 +119,6 @@ public class PingFileLock implements Closeable {
 
     @Override
     public void close() throws IOException {
-
         //close all stream
         if(this.raf != null){
             this.raf.close();

@@ -2,6 +2,12 @@ package com.greeting.util;
 
 import java.io.IOException;
 
+
+/**
+ * @author sam
+ *
+ * 单一厂, 方便后期维护。让使用更优雅
+ */
 public class PingFileLockFactory {
 
     private static final PingFileLockFactory INSTANCE = new PingFileLockFactory();
