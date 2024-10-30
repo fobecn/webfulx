@@ -1,0 +1,12 @@
+server:
+  port: 8081
+  application:
+    name: pong
+app:
+  rate:
+    limit: 1
+    duration: 1000 #ms
+
+
+
+
